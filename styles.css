@@ -1,0 +1,338 @@
+/* .navigation-bar {
+    background-color: black;
+} */
+
+.nav {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .4);
+    width: 100%;
+    background-color: white;
+    height: min-content;
+}
+
+#navigation-container {
+    background-color: yellow;
+    width: 100%;
+}
+
+.nav-logo {
+    margin-left: 700px;
+}
+
+
+.header {
+    justify-content: center;
+}
+
+.one {
+    margin-left: 260px;
+    margin-top: 40dp;
+    margin-bottom: 40dp;
+}
+
+.dropdown1 {
+    margin-left: 260px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.two {
+    margin-left: 260px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+
+}
+
+.qst {
+    font-size: large;
+}
+
+.form-check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    margin-left: 650px;
+    padding: 6px 25px 6px 25px;
+    background-color: rgb(81, 125, 81);
+    color: white;
+    border-radius: 4px;
+}
+
+
+/* sec2 */
+
+
+.dropdown2,
+.dropdown3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 260px;
+    width: 80%;
+}
+
+.btn {
+    text-align: left;
+    width: 80%;
+    background-color: aliceblue;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.choice {
+    margin-top: 50px;
+}
+
+.cardview {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px;
+    background-color: rgb(227, 254, 254);
+    height: 400px;
+}
+
+.cardview:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cln {
+    border: 3px thin blue;
+}
+
+
+
+.card {
+    margin-left: 120px;
+    height: 300px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(227, 254, 254);
+    border: 5px thin blue;
+    border-radius: 10px;
+}
+
+.card-link {
+    margin-top: 80px;
+}
+
+.card-title {
+    margin-bottom: 30px;
+}
+
+
+
+.title {
+    font-size: large;
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* .slidee {
+    background-color: azure;
+    height: 700px;
+} */
+
+.scrollview {
+    background-color: azure;
+    margin-top: 130px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 70%;
+    margin-left: 250px;
+}
+
+.mySlides {
+    background-color: azure;
+    box-shadow: #888;
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    user-select: none;
+}
+
+.next {
+    border-radius: 20px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(55, 6, 249, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    margin-top: 0px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: blue;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.content {
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 150px 40px 40px 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.con {
+    margin-top: 0px;
+}
+
+.sbt {
+    padding: 10px 10px 10px 10px;
+    margin-left: 715px;
+    margin-bottom: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(18, 18, 77);
+    height: 400px;
+}
+
+.flogo {
+    margin-top: 200px;
+    margin-left: 750px;
+}
+
+@media (max-width: 430px) {
+
+
+    .nav-logo {
+        margin-left: 170px;
+    }
+
+    .choice {
+        width: 100%;
+    }
+
+    .qst,
+    .one,
+    .two,
+    .dropdown1,
+    .form-check,
+    .form-check-label {
+        width: 100%;
+        margin-left: 36px;
+    }
+
+    .btn1 {
+        width: 30%;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    .cardview {
+        display: inline;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .card {
+        height: 280px;
+        margin-left: 72px;
+    }
+
+    .dropdown2,
+    .dropdown3 {
+        width: 100%;
+        margin-left: 36px;
+    }
+
+    .title {
+        margin-bottom: 10px;
+        margin-top: 50px;
+        margin-left: 170px;
+    }
+
+    .slideshow-container {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .content {
+        height: max-content;
+        width: 140%;
+        margin-left: -80px;
+    }
+
+    .mySlides {
+        display: none;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .sbt {
+        margin-left: 145px;
+        margin-bottom: 20px;
+    }
+
+    .flogo {
+        margin-left: 175px;
+        margin-top: 200px;
+    }
+}
